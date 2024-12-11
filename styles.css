@@ -51,6 +51,12 @@ header h1 a {
   vertical-align: middle;
 }
 
+@media only screen and (max-width: 600px) {
+  .nav-icons img {
+    display: none;
+  }
+}
+
 .landing {
   text-align: center;
   padding: 50px 20px;
