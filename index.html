@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bakery Delight</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1><a href="#">Bakery Delight</a></h1>
+        <div class="nav-icons">
+          <a class="nav-link" href="#products">Products</a>
+          <a class="nav-linkn" href="cart.html"
+            >Cart <img class="img-cart" src="./imgs/cart_icon.png" alt="Cart Icon"
+          /></a>
+        </div>
+      </nav>
+    </header>
+    <div class="landing">
+      <h2>Welcome to Bakery Delight!</h2>
+      <p>Experience the taste of freshly baked happiness.</p>
+      <button onclick="window.location.href='#products'">
+        Explore Our Products
+      </button>
+    </div>
+
+    <div class="container">
+      <div class="products" id="products">
+        <!-- Products will be injected here by JavaScript -->
+      </div>
+    </div>
+
+    <div id="popup" class="popup">Product added to cart!</div>
+
+    <footer>
+      <p>&copy; 2024 Bakery Delight. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

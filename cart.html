@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Cart - Bakery Delight</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1><a href="./index.html">Bakery Delight</a></h1>
+        <div class="nav-icons">
+          <a class="nav-link" href="index.html">Back to Home</a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <h2>Your Cart</h2>
+      <div id="cart-items">
+        <!-- Cart items will be dynamically injected here -->
+      </div>
+      <button onclick="confirmCart()" class="confirm-button">
+        Confirm Purchase
+      </button>
+    </div>
+
+    <div id="popup" class="popup">Product added to cart!</div>
+
+    <footer>
+      <p>&copy; 2024 Bakery Delight. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
